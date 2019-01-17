@@ -1,0 +1,49 @@
+#game-board {
+  background-color: white;
+  border: 1px black solid;
+  width: 1000px;
+  height: 680px;
+  text-align: center;
+  margin: auto;
+  font-family: sans-serif;
+  margin-top: 40px;
+}
+
+header {
+  height: 100px;
+  background-color: #EEEEEE;
+}
+
+header h1 {
+  padding-top: 30px;
+  font-size: 2.5em;
+}
+
+#plateau {
+  margin: 50px auto;
+  width: 770px;
+  height: 440px;
+  background-color: #DDDDFF;
+}
+
+.carte {
+  float: left;
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+  background-color: darkgrey;
+}
+.carte:hover {
+  background-color: #808080;
+
+}
+
+.image {
+  background: url("../images/cards.png");
+  width: 100px;
+  height: 100px;
+    }
+
+.cache {
+  background-color: darkgrey;
+  }
